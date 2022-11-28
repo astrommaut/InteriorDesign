@@ -1,0 +1,121 @@
+
+.home-link{
+    transition: 0.5s ease;
+}
+
+.home-link::after{
+    content: '';
+    width:44px;
+    height: 1px;
+    background-color: #777777;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.home-link:hover::after{
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+.home-link{
+    cursor: pointer;
+}
+.mirrors-link{
+    transition: 0.5s ease;
+}
+
+.mirrors-link::after{
+    content: '';
+    width:50px;
+    height: 1px;
+    background-color: #777777;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.mirrors-link:hover::after{
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+.mirrors-link{
+    cursor: pointer;
+}
+.ambience-link{
+    transition: 0.5s ease;
+}
+
+.ambience-link::after{
+    content: '';
+    width:70px;
+    height: 1px;
+    background-color: #777777;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.ambience-link:hover::after{
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+.ambience-link{
+    cursor: pointer;
+}
+.steps-link{
+    transition: 0.5s ease;
+}
+
+.steps-link::after{
+    content: '';
+    width:41px;
+    height: 1px;
+    background-color: #777777;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.steps-link:hover::after{
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+.steps-link{
+    cursor: pointer;
+}
+.email-link{
+    transition: 0.5s ease;
+}
+
+.email-link::after{
+    content: '';
+    width:39px;
+    height: 1px;
+    background-color: #777777;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.email-link:hover::after{
+    transform: scale(1);
+    transition: 0.5s ease;
+}
+.email-link{
+    cursor: pointer;
+}
+.contact-link{
+    transition: 0.5s ease;
+}
+
+.contact-link::after{
+    content: '';
+    width:57px;
+    height: 1px;
+    background-color: #777777;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.contact-link:hover::after{
+    transform: scale(1);
+    transition: 1s ease;
+}
+.contact-link{
+    cursor: pointer;
+}

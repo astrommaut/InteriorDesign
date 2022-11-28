@@ -1,0 +1,44 @@
+.mirror-bg{
+    height: 350px;
+    width: auto;
+}
+.mirror-name{
+    font-weight: 600;
+    padding-bottom: 20px
+}
+.mirror-text{
+    padding-bottom: 20px;
+}
+.mirror{
+
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    transition: 1s ease;
+    padding-bottom: 20px;
+}
+
+.button::before{
+    content: '';
+    width:81px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.button::after{
+    content: '';
+    width:81px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.button:hover::after,
+.button:hover::before{
+    transform: scale(1);
+    transition: 1s ease;
+}

@@ -1,0 +1,17 @@
+.steps{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.row{
+    padding: 15px;
+}
+h4{
+    padding: 3px;
+    font-weight: 700;
+}
+h2{
+    font-weight: 900;
+}
+.rowBg{
+    background-color: #E2E2E2;
+}

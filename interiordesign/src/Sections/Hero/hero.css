@@ -1,0 +1,37 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(./background1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.button1{
+    transition: 1s ease;
+}
+
+.button1::before{
+    content: '';
+    width:81px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.button1::after{
+    content: '';
+    width:81px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    display: block;
+    transform: scale(0);
+}
+.button1:hover::after,
+.button1:hover::before{
+    transform: scale(1);
+    transition: 1s ease;
+}
