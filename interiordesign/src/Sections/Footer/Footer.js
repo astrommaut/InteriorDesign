@@ -67,7 +67,7 @@ function Footer() {
           </a>
         </section>
         <a className="text-dark copyright" href="">
-        © 2020 Copyright: ESTELESAITALIA.com
+         2020 Copyright: ESTELESAITALIA.com
         </a>
       </div>
 
