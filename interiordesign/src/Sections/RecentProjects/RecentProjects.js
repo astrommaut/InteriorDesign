@@ -7,7 +7,7 @@ import { Player } from "video-react";
 import "./RecentProjects.css";
 function RecentProjects() {
   return (
-    <div className="container mt-4 mb-4 pt-5 pb-5 rowBg recentProjects">
+    <div data-aos="fade-up" className="container mt-4 mb-4 pt-5 pb-5 rowBg recentProjects">
       <div className="row text-center">
         <h2>Our Recent Interior Design Projects We Completed</h2>
       </div>

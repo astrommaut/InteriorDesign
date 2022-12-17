@@ -4,7 +4,7 @@ import {Link} from 'react-scroll'
 import AmbienceBg from './ambience1.jpeg'
 export default function Ambience() {
   return (
-    <div className="ambience" id="ambience">
+    <div data-aos="fade-up" className="ambience" id="ambience">
       <div className="container pb-5 pt-5 text-center ">
         <div className="row rowBg">
           <div className="col-sm-12 col-xs-12 col-xl-4">

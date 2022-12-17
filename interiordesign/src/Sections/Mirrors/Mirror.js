@@ -5,7 +5,7 @@ import MirrorBg from './Mirror.webp'
 import {Link} from 'react-scroll'
 function Slider() {
   return (
-    <div className="mirror" id="mirrors">
+    <div data-aos="fade-up" className="mirror" id="mirrors">
     <div className="container pb-5 pt-5 text-center ">
       <div className="row rowBg ">
         <div className="col-sm-12 col-xs-12 col-xl-4 ">

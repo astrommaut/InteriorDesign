@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 function Footer() {
   return (
-    <footer className="text-center text-white mt-4" id="contact">
+    <footer data-aos="fade-up" className="text-center text-white mt-4" id="contact">
       <div className="container pt-4 pb-4 mb-4 rowBg">
         <section className="mb-4">
           <a

@@ -18,7 +18,7 @@ export default function Email() {
     e.target.reset();
   }
   return (
-    <div className="container">
+    <div className="container" data-aos="fade-up">
       <div className="row pt-5 pb-2 rowBg text-center" id="email">
         <div className="col-12">
           <h3 className="email-name ">

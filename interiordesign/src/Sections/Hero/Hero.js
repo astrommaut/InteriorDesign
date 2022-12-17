@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-scroll";
-
+import aos from "aos";
+import "aos/dist/aos.css";
 import "./hero.css";
 function Hero() {
+  useEffect(() => {
+    aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="container-fluid hero" id="home">
       <div className="row">
@@ -17,7 +21,7 @@ function Hero() {
               words={["ESTELESA ITALIA"]}
             />
           </h1>
-          <p className="hero-p">
+          <p className="hero-p" data-aos="zoom-in">
             Quality materials, attention to detail and functional Italian design
           </p>
           <Link
@@ -27,6 +31,7 @@ function Hero() {
             smooth={true}
             offset={0}
             duration={300}
+            data-aos="zoom-in"
           >
             Contact Us
           </Link>

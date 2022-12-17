@@ -2,7 +2,7 @@ import React from "react";
 import './Steps.css'
 export default function Steps() {
   return (
-    <div className="container text-center steps" id="steps">
+    <div data-aos="fade-up" className="container text-center steps" id="steps">
       <div className="row rowBg">
         <h2 className="pt-3 pb-3">4 Simple Steps To Your New Beautiful Home</h2>
       </div>
